@@ -1,6 +1,7 @@
 ﻿namespace Test_hiplatform
 {
     using System.Transactions;
+
     public class GerenciadorConta
     {
         private readonly ContaDao contaDao;
@@ -34,8 +35,6 @@
                 tran.Complete();
             }
         }
-
-
 
         #region Classes
         abstract class Conta
