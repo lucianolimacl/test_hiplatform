@@ -23,6 +23,7 @@
             _lucroProdutosProximoExpiracao = lucroProdutosProximoExpiracao;
 
         }
+
         /// <summary>
         /// Método responsável por calcular o custo do produto
         /// </summary>
